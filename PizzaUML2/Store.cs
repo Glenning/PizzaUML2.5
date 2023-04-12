@@ -21,7 +21,7 @@ namespace PizzaUML2
             menuCatalog.Create(p2);
             Pizza p3 = new Pizza() { pizzaName = "Hawaii", pizzaPrice = 50, number = 3 };
             menuCatalog.Create(p3);
-
+            
             menuCatalog.PrintMenu();
         }
     }
