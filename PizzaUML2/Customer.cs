@@ -9,13 +9,10 @@ namespace PizzaUML2
     public class Customer
     {
         private string _customerName;
+        public string CustomerName { get { return _customerName; } set { _customerName = value; } }
         public Customer(string customerName)
         {
             _customerName = customerName;
-        }
-        public string CustomerName
-        {
-            get { return _customerName; }
         }
     }
 }
